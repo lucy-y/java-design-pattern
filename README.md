@@ -9,9 +9,6 @@
 - Example1) Ainterface(선언), AinterfaceImpl(구현), AObj(델리게이트..?)
 - Example2) Weapon(Sword, Knife, Ax) - Attack
 
-> 참고링크: 
-> - https://shorturl.at/luE19
->
 
 ## Adapter Patten (어댑터 패턴)
 - 목표 : 알고리즘을 요구사항에 맞춰 사용할 수 있다.
@@ -31,11 +28,8 @@
     - Math 클래스에 새롭게 두 배를 구할 수 있는 함수가 추가되었습니다
     새로 구현된 알고리즘을 이용하도록 프로그램을 수정해주세요.
     - 절반을 구하는 기능에서 로그를 찍는 기능을 추가해주세요.
-    
-> 참고링크: 
-> - https://shorturl.at/cluC9
-> - https://shorturl.at/efqAT
-> 
+   
+
 ## Template Method Pattern (템플릿 메소드 패턴)
 - 목표 : 일정한 프로세스를 가진 요구사항을 템플릿 메소드 패턴을 이용하여 구현하기
 - 개념 : 알고리즘의 **구조를 메소드에 정의**하고 하위 클래스에서 알고리즘 구조의 변경없이 알고리즘을 **재정의** 하는 패턴
@@ -55,119 +49,78 @@
         - 인증 authentication(String id, String password):boolean
         - 권한 authoriztion(String userName):int
         - 접속 connection(String info):String
-- Extra Example)
+- Extra Example
     - 보안 부분 강화
     - 10시 이후 청소년 접속 제한
     
-> 참고링크:
-> - https://shorturl.at/vwCIL
-> 
  
 ## Factory Method Pattern (팩토리 메소드)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
 
 ## Singleton Pattern (싱글톤 패턴)
-- 목표 : 
-- 개념 : 
-
-> 참고링크:
-> - https://
-> 
+- 목표 : 싱글톤 패턴을 통해서 하나의 인스턴스만 생성하도록 구현
+- 개념 : 하나의 인스턴스만 있도록 하기
+       
+       - 객체 : 속성과 기능을 갖춘 것
+       - 클래스 : 속성과 기능을 정의한 것
+       - 인스턴스 : 속성과 기능을 가진 것 중 실제 하는 것 
+       
+       객체 안에 클래스 집합
+       객체 안에 인스턴스 집합
+- Extra Example
+    - 개발 중인 시스템에서 스피커에 접근 할 수 있는 클래스를 만들어주세요.
 
 
 ## Prototype Pattern (프로토 타입 패턴)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
-
 
 ## Builder Pattern (빌더 패턴)
 - 목표 : 
 - 개념 : 
-
-> 참고링크:
-> - https://
-> 
 
 
 ## Abstract Factory Pattern (추상 팩토리 패턴)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
-
 
 ## Bridge Pattern (브릿지 패턴)
 - 목표 : 
 - 개념 : 
-
-> 참고링크:
-> - https://
-> 
 
 
 ## Composite Pattern (컴포짓 패턴)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
-
 
 ## Decorator Pattern (데코레이터 패턴)
 - 목표 : 
 - 개념 : 
-
-> 참고링크:
-> - https://
-> 
 
 
 ## Visitor Pattern (방문자 패턴)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
-
 
 ## Chain of Resposibility (책임사슬 패턴)
 - 목표 : 
 - 개념 : 
-
-> 참고링크:
-> - https://
-> 
 
 
 ## Facade (퍼사드 패턴)
 - 목표 : 
 - 개념 : 
 
-> 참고링크:
-> - https://
-> 
-
 
 ## Observer (옵저버 패턴)
 - 목표 : 
 - 개념 : 
-
-> 참고링크:
-> - https://
-> 
 
 
 ## Other Pattern (그 외 여러가지 디자인 패턴)
